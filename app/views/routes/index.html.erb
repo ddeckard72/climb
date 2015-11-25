@@ -1,0 +1,14 @@
+<h2>Climb</h2>
+
+	<ul class="routes">
+    <% @routes.each do |entry| %>
+        <li class="route">
+           
+            <%= entry.route entry.rating entry.location%> 
+        </li>
+    <% end %>
+    </ul>
+    <div class="routes-nav">
+    	<%= paginate @routes %>
+        <%= link_to "Add route", routes_new_path %>
+    </div>
