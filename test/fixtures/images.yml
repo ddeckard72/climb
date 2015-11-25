@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  caption: MyString
+  filename: MyString
+  location_id: 1
+  climber_id: 
+  section: MyString
+  route_id: 1
+  state: MyString
+
+two:
+  caption: MyString
+  filename: MyString
+  location_id: 1
+  climber_id: 
+  section: MyString
+  route_id: 1
+  state: MyString
