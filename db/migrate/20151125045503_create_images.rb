@@ -4,7 +4,7 @@ class CreateImages < ActiveRecord::Migration
       t.string :caption
       t.string :filename
       t.integer :location_id
-      t.intger :climber_id
+      t.integer :climber_id
       t.string :section
       t.integer :route_id
       t.string :state
