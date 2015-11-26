@@ -20,6 +20,8 @@ class RouteController < ApplicationController
 
   end
 
+  def search
 
+  end
 
 end
