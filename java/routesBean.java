@@ -1,5 +1,6 @@
 public class RoutesBean implements java.io.Serializable
 {
+   // Properties
    private String location = null;
    private String country = null;
    private String city = null;
@@ -28,6 +29,8 @@ public class RoutesBean implements java.io.Serializable
    public int getCity(){
       return city;
    }
+
+   
    public void setLocation(String location){
       this.location = location;
    }
