@@ -1,0 +1,25 @@
+Header menu
+
+Sidebar
+
+Footer
+
+
+All the things
+
+Routes
+News
+Discussions
+Pictures
+Videos
+Shopping
+Events
+Gear
+Local shops
+People
+Gyms
+Articles
+
+
+Database changes
+

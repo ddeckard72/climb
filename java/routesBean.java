@@ -26,8 +26,14 @@ public class RoutesBean implements java.io.Serializable
    public String getCountry(){
       return country;
    }
-   public int getCity(){
+   public String getCity(){
       return city;
+   }
+   public String getState(){
+      return state;
+   }
+   public String getRegion(){
+      return region;
    }
 
    
@@ -40,4 +46,11 @@ public class RoutesBean implements java.io.Serializable
    public void setCity(String city){
       this.city = city;
    }
+   public void setState(String state){
+      this.state = state;
+   }
+   public void setRegion(String region){
+      this.region = region;
+   }
 }
+
